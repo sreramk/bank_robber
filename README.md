@@ -1,6 +1,7 @@
-#The robber problem
+The robber problem
 
 A robber want’s to rob the bank. The bank has n vaults, arranged as a circle. Each of them has varying amount of money in it. The robber’s goal is to steal the maximum amount of money from the vaults. But the bank’s alarm system won’t make it easy for the robber. The alarm system turns on if the robber steals from more than two vaults, within a set of five vaults consecutive. For example, let the following series of numbers represent the amount of money in each of the vaults: 134, 1, 2, 3, 1234, 4, 6, 7, 8, 345, 677, 45, 78, 1, 9. 
+
 
 The first vault contains 134 Rs, the second vault contains 1 Rs and so on.  Note that the 15th vault (the final one which has 9 Rs in it) is adjacent to the first vault which contains 134 Rs, as the vaults are placed in a circular order. Thus, if the thief steals from just the first vault and the second vault, he would get away with the money he stole. Because, you cannot form a set of consecutive five vaults among which more than two are stolen from. But if the first, the second and the third vaults are stolen from, then it is possible to form multiple consecutive sets of five vaults which has more than two of its vaults which are robbed. Example of sets (the numbers represent the vault number and not the money in it): 1,2,3,4,5. In this set, we have the following vaults from which the money is stole from: 1, 2,3. This exceeds the limit, thus the alarm will turn on and the thief will get caught. Even if you consider the set: 15, 1, 2, 3, 4, the vaults 1,2 and 3 are present, which the thief robbed from. Thus, the alarm will go on, and the thief will get caught.  
 
