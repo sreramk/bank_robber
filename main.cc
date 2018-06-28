@@ -3,6 +3,8 @@
  *
  *  Created on: 27-Jun-2018
  *      Author: sreramk
+ *
+ *  copyright (c) 2018 K Sreram.
  */
 
 #include <iostream>
