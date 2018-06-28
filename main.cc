@@ -3,8 +3,6 @@
  *
  *  Created on: 27-Jun-2018
  *      Author: sreramk
- *
- *  copyright (c) 2018 K Sreram.
  */
 
 #include <iostream>
@@ -22,7 +20,7 @@ class CombinationState {
 
 	std::vector<bool> combination;
 
-	int totalCombinations;
+	//int totalCombinations;
 
 	/// comb: true => set. False => gap
 	bool next_combination (uint8_t level);
@@ -31,7 +29,7 @@ class CombinationState {
 
 	int compute_total_combinations ();
 
-	static int fact (int val);
+	//static int fact (int val);
 
 public:
 
@@ -69,12 +67,12 @@ CombinationState::CombinationState(int pIDSize, int pCombinationSize) {
 
 	reset ();
 
-	totalCombinations = compute_total_combinations ();
+	//totalCombinations = compute_total_combinations ();
 
 
 }
 
-int CombinationState::fact (int val) {
+/*int CombinationState::fact (int val) {
 
 	int res = 1;
 
@@ -93,7 +91,7 @@ int CombinationState::compute_total_combinations () {
 
 int CombinationState::total_combinations() {
 	return totalCombinations;
-}
+}*/
 
 
 void CombinationState::debug_display () {
@@ -230,7 +228,13 @@ public:
 
 
 BankRobber::BankRobber (const std::vector<int>& pVaults) :
-		vaults(pVaults), chosenVaultsChanged(false),moneyStolen(0) {}
+		vaults(pVaults), chosenVaultsChanged(false),moneyStolen(0) {
+
+	if (pVaults.size() < 5) {
+		throw std::string ("Error, the bank cannot have less than 5 vaults");
+	}
+
+}
 
 void BankRobber::debug_display () {
 
