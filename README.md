@@ -10,6 +10,7 @@ Another example will be, the vaults: 1,3, 7, 12 are stolen from. Though this may
 Given parameters:-
 
 -The number of vaults: n
+
 -The amount of money in each vault.
 
 To solve: 
