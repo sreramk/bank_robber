@@ -1,4 +1,4 @@
-The robber problem
+# The robber problem
 
 A robber want’s to rob the bank. The bank has n vaults, arranged as a circle. Each of them has varying amount of money in it. The robber’s goal is to steal the maximum amount of money from the vaults. But the bank’s alarm system won’t make it easy for the robber. The alarm system turns on if the robber steals from more than two vaults, within a set of five vaults consecutive. For example, let the following series of numbers represent the amount of money in each of the vaults: 134, 1, 2, 3, 1234, 4, 6, 7, 8, 345, 677, 45, 78, 1, 9. 
 
