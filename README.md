@@ -18,3 +18,5 @@ To solve:
 The range of n: 1 to 100
 
 **About this question:** *My placement teacher gave me this problem, and it took me 6 to 7 hours to solve it. I would have solved it a lot faster if I had understood the question correctly, when he first told me. I was solving a more complicated problem, until I reported my states to him, and it was when I realized that I had been solving an entirely different problem. Fortunately, it had a similar approach and I didn’t have to toss away any code as a result. By the way, my placement teacher classified this question as hard.*
+
+**Note:** *My solution, which is in main.cc file, does not provide the correct result if the number of vaults are less than 5. It is a unique corner case which can be easily handled and I ignored it out of laziness*
